@@ -10,4 +10,3 @@ Examples for cpplinq
 
 ## Code Quality (master)
 [![CodeFactor](https://www.codefactor.io/repository/github/jorturfer/cpplinq_examples/badge/master)](https://www.codefactor.io/repository/github/jorturfer/cpplinq_examples/overview/master)
-
