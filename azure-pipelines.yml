@@ -5,6 +5,7 @@
 
 #jobs:
 #- job: Linux
+  displayName: Compilacion Linux
   pool:
     vmImage: 'Ubuntu-16.04'
 
