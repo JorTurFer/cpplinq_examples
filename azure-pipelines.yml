@@ -3,8 +3,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-jobs:
-- job: Linux
+#jobs:
+#- job: Linux
   pool:
     vmImage: 'Ubuntu-16.04'
 
@@ -12,16 +12,16 @@ jobs:
   # Build with the CMake cross-platform build system
   - task: CMake@1
     inputs:
-      #workingDirectory: 'build' # Optional
+      workingDirectory: 'build' # Optional
       #cmakeArgs: # Optional
       
-- job: macOS
-  pool:
-    vmImage: 'macOS-10.13'
+#- job: macOS
+#  pool:
+#    vmImage: 'macOS-10.13'
 
   # CMake
   # Build with the CMake cross-platform build system
-  - task: CMake@1
-    inputs:
+#  - task: CMake@1
+#    inputs:
       #workingDirectory: 'build' # Optional
       #cmakeArgs: # Optional
