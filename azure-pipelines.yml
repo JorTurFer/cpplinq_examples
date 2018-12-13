@@ -5,10 +5,11 @@
 
 #jobs:
 #- job: Linux
-  displayName: Compilacion Linux
+# displayName: Compilacion Linux
   pool:
     vmImage: 'Ubuntu-16.04'
 
+  steps:
   # CMake
   # Build with the CMake cross-platform build system
   - task: CMake@1
